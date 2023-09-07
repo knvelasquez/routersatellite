@@ -24,6 +24,8 @@ de cada **satelite** y una **torre de control**
 ## Red interna satelite
 
 Cada satelite dispone de su propia red interna aislada e independiente
+
+
 ![Nework_satellites](https://i.imgur.com/GreEVR9.png)
 
 Servicios:
