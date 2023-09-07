@@ -2,8 +2,10 @@
 # Microservicio Router Satellite
 
 ### Spring Boot, java17,  Cola de Mensajes(Kafka) y PostgreSQl
-Microservicio que calcula la suma de dos números y luego aplica la suba de un porcentaje el cual es obtenido de un servicio externo de manera eficiente y tolerante a fallos en un entorno de alto rendimiento.
-
+Proxy inverso que valida las solicitudes, recibe el payload completo con el mensaje y distancia de cada uno de los satelites
+Determina cual solicitud se puede procesar desde el propio satelite que recibió en la red interna
+El resto de la solicitud es enviado/redirigdo hacia la puerta de enlace del siguiente satellite
+El cual se determina mediante una logica y con el payload restante
 # Tabla de contenido
 
 - [Análisis y Diseño](Readme2.md)
