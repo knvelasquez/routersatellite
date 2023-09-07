@@ -4,7 +4,7 @@ Un breve resumen de como imaginé el diseño de esta solución.
 
 # Tabla de contenido
 
-- [Volver al inicio](Readme.md)
+- [Volver al inicio](README.md)
 - [Introducción](#introducción)
 - [Arquitectura general](#arquitectura-general)
   - [Red-interna-satelite](#red-interna-satelite)
