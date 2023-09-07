@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+  routersatellite:
+    container_name: router-satellite
+    image: knvelasquez/routersatellite:v1.1
+    environment:
+      # Sets default value 8082 if SPRING_BOOT_PORT is not defined
+      - SPRING_BOOT_PORT=${SPRING_BOOT_PORT:-8083}
+    networks:
+      - router-satellite-network
+
+networks:
+  router-satellite-network:
+    driver: bridge
+
+#run pulling from dicker hub
+#docker compose -f docker-compose.prod.yaml up
+
+#set custom port
+#SPRING_BOOT_PORT=8181 docker compose -f docker-compose.prod.yaml up
