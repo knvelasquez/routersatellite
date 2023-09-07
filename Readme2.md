@@ -22,6 +22,7 @@ de cada **satelite** y una **torre de control**
 ![Space_satellites](https://i.imgur.com/UBuH893.png)
 
 ## Red interna satelite
+
 Cada satelite dispone de su propia red interna aislada e independiente
 ![Nework_satellites](https://i.imgur.com/GreEVR9.png)
 
